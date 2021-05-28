@@ -5,11 +5,7 @@ function refuel()
 end
 
 function isEmptyBlock()
-    if not turtle.detect() then 
-        return true 
-    else 
-        return false 
-    end
+    return not turtle.detect()
 end
 
 
