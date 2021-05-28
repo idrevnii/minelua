@@ -35,3 +35,5 @@ function start()
         sleep(5)
     end
 end
+
+start()
